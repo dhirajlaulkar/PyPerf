@@ -1,6 +1,6 @@
 import pytest
-from pyperf.optimizations import naive_vs_optimized
-from pyperf.optimizations import caching_examples
+from optimizations import naive_vs_optimized
+from optimizations import caching_examples
 
 def test_find_common_elements():
     l1 = [1, 2, 3, 4, 5, 2]

@@ -1,8 +1,8 @@
 import random
 import timeit
 from typing import Dict, Any, List, Callable
-from pyperf.optimizations import naive_vs_optimized
-from pyperf.optimizations import caching_examples
+from optimizations import naive_vs_optimized
+from optimizations import caching_examples
 
 def run_benchmark(
     name: str,

@@ -1,7 +1,7 @@
 import pytest
 import timeit
-from pyperf.optimizations import naive_vs_optimized
-from pyperf.optimizations import caching_examples
+from optimizations import naive_vs_optimized
+from optimizations import caching_examples
 
 def assert_faster(naive_func, opt_func, distinct_args=False, loops=1000, *args):
     """

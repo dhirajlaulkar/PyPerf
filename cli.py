@@ -2,8 +2,8 @@ import argparse
 import sys
 import runpy
 import os
-from pyperf.benchmarks import benchmark_runner
-from pyperf.profiler import cprofile_runner
+from benchmarks import benchmark_runner
+from profiler import cprofile_runner
 
 def main():
     parser = argparse.ArgumentParser(description="PyPerf: Performance Profiling & Benchmarking Toolkit")
