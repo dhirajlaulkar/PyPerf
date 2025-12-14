@@ -2,7 +2,7 @@
 
 **PyPerf** is a production-grade toolkit designed to help developers profile, debug, optimize, and test Python code. It demonstrates strong Python fundamentals, clean architecture, and rigorous performance testing strategies.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Advanced Profiling**: Integrated wrappers for `cProfile` and `timeit` to provide granular execution insights.
 - **Algorithmic Optimizations**: Reference implementations of O(n) vs O(n²) algorithms, achieving **>20,000x** speedups.
@@ -10,7 +10,7 @@
 - **Performance Testing**: `pytest` suite that enforces performance thresholds, ensuring optimizations don't regress.
 - **Clean Architecture**: Modular design separating profiling logic, implementations, and testing.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 pyperf/
@@ -37,7 +37,7 @@ Requires **Python 3.10+**.
     pip install -r requirements.txt
     ```
 
-## ⚡ Usage
+##  Usage
 
 ### 1. Run Benchmarks
 Execute the internal benchmark suite to see the performance difference between naive and optimized implementations.
@@ -70,7 +70,7 @@ Ensures correctness and validates that optimized functions meet performance thre
 pytest -v
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 This project demonstrates massive scalability gains through:
 -   **Vectorization & Hashing**: Reducing time complexity from O(n*m) to O(n+m) for set operations.
